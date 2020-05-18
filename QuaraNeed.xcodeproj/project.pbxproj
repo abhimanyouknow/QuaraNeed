@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3C42AB246C54F000430A09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C42AA246C54F000430A09 /* SignUpViewController.swift */; };
+		9B3C42AD246C550300430A09 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C42AC246C550300430A09 /* LoginViewController.swift */; };
+		9B3C42AF246C550E00430A09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C42AE246C550E00430A09 /* HomeViewController.swift */; };
+		9B3C42B2246C61AA00430A09 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C42B1246C61A900430A09 /* Utilities.swift */; };
+		9B3C42B5246C686A00430A09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C42B4246C686A00430A09 /* GoogleService-Info.plist */; };
+		9B3C42B7246C772000430A09 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C42B6246C772000430A09 /* Constants.swift */; };
 		9B4DAD7A2469AD93000132B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DAD792469AD93000132B2 /* AppDelegate.swift */; };
 		9B4DAD7C2469AD93000132B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DAD7B2469AD93000132B2 /* SceneDelegate.swift */; };
 		9B4DAD7E2469AD93000132B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DAD7D2469AD93000132B2 /* ViewController.swift */; };
 		9B4DAD812469AD93000132B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DAD7F2469AD93000132B2 /* Main.storyboard */; };
 		9B4DAD832469AD94000132B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DAD822469AD94000132B2 /* Assets.xcassets */; };
 		9B4DAD862469AD94000132B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DAD842469AD94000132B2 /* LaunchScreen.storyboard */; };
+		9EE1EEA33D3653AD32359D14 /* Pods_QuaraNeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550C47CDB9E07ECD8DAE4F1B /* Pods_QuaraNeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1108411B79ABFD53A9CB37E7 /* Pods-QuaraNeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuaraNeed.release.xcconfig"; path = "Target Support Files/Pods-QuaraNeed/Pods-QuaraNeed.release.xcconfig"; sourceTree = "<group>"; };
+		550C47CDB9E07ECD8DAE4F1B /* Pods_QuaraNeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuaraNeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8FD28FDC8C6E27EE016067 /* Pods-QuaraNeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuaraNeed.debug.xcconfig"; path = "Target Support Files/Pods-QuaraNeed/Pods-QuaraNeed.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3C42AA246C54F000430A09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9B3C42AC246C550300430A09 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9B3C42AE246C550E00430A09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B3C42B1246C61A900430A09 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9B3C42B4246C686A00430A09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B3C42B6246C772000430A09 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9B4DAD762469AD93000132B2 /* QuaraNeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuaraNeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4DAD792469AD93000132B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B4DAD7B2469AD93000132B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +47,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE1EEA33D3653AD32359D14 /* Pods_QuaraNeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B3C42B0246C551200430A09 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C42AA246C54F000430A09 /* SignUpViewController.swift */,
+				9B3C42AC246C550300430A09 /* LoginViewController.swift */,
+				9B3C42AE246C550E00430A09 /* HomeViewController.swift */,
+				9B4DAD7D2469AD93000132B2 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9B3C42B3246C628F00430A09 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C42B1246C61A900430A09 /* Utilities.swift */,
+				9B3C42B6246C772000430A09 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		9B4DAD6D2469AD93000132B2 = {
 			isa = PBXGroup;
 			children = (
 				9B4DAD782469AD93000132B2 /* QuaraNeed */,
 				9B4DAD772469AD93000132B2 /* Products */,
+				ABD2E9BE84E138A71F56708B /* Pods */,
+				C0014C1E3DA4EDD29D173553 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +97,32 @@
 			children = (
 				9B4DAD792469AD93000132B2 /* AppDelegate.swift */,
 				9B4DAD7B2469AD93000132B2 /* SceneDelegate.swift */,
-				9B4DAD7D2469AD93000132B2 /* ViewController.swift */,
+				9B3C42B3246C628F00430A09 /* Helpers */,
+				9B3C42B0246C551200430A09 /* View Controllers */,
 				9B4DAD7F2469AD93000132B2 /* Main.storyboard */,
 				9B4DAD822469AD94000132B2 /* Assets.xcassets */,
 				9B4DAD842469AD94000132B2 /* LaunchScreen.storyboard */,
 				9B4DAD872469AD94000132B2 /* Info.plist */,
+				9B3C42B4246C686A00430A09 /* GoogleService-Info.plist */,
 			);
 			path = QuaraNeed;
+			sourceTree = "<group>";
+		};
+		ABD2E9BE84E138A71F56708B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FD28FDC8C6E27EE016067 /* Pods-QuaraNeed.debug.xcconfig */,
+				1108411B79ABFD53A9CB37E7 /* Pods-QuaraNeed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0014C1E3DA4EDD29D173553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550C47CDB9E07ECD8DAE4F1B /* Pods_QuaraNeed.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B4DAD8A2469AD94000132B2 /* Build configuration list for PBXNativeTarget "QuaraNeed" */;
 			buildPhases = (
+				D0DCB09CE92AFA3B54F65F72 /* [CP] Check Pods Manifest.lock */,
 				9B4DAD722469AD93000132B2 /* Sources */,
 				9B4DAD732469AD93000132B2 /* Frameworks */,
 				9B4DAD742469AD93000132B2 /* Resources */,
+				3A277951650D4AA976AB6BD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +186,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B4DAD862469AD94000132B2 /* LaunchScreen.storyboard in Resources */,
+				9B3C42B5246C686A00430A09 /* GoogleService-Info.plist in Resources */,
 				9B4DAD832469AD94000132B2 /* Assets.xcassets in Resources */,
 				9B4DAD812469AD93000132B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A277951650D4AA976AB6BD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuaraNeed/Pods-QuaraNeed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuaraNeed/Pods-QuaraNeed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuaraNeed/Pods-QuaraNeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DCB09CE92AFA3B54F65F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuaraNeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B4DAD722469AD93000132B2 /* Sources */ = {
@@ -140,7 +243,12 @@
 			files = (
 				9B4DAD7E2469AD93000132B2 /* ViewController.swift in Sources */,
 				9B4DAD7A2469AD93000132B2 /* AppDelegate.swift in Sources */,
+				9B3C42B2246C61AA00430A09 /* Utilities.swift in Sources */,
+				9B3C42AB246C54F000430A09 /* SignUpViewController.swift in Sources */,
+				9B3C42AD246C550300430A09 /* LoginViewController.swift in Sources */,
 				9B4DAD7C2469AD93000132B2 /* SceneDelegate.swift in Sources */,
+				9B3C42AF246C550E00430A09 /* HomeViewController.swift in Sources */,
+				9B3C42B7246C772000430A09 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		9B4DAD8B2469AD94000132B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8FD28FDC8C6E27EE016067 /* Pods-QuaraNeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		9B4DAD8C2469AD94000132B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1108411B79ABFD53A9CB37E7 /* Pods-QuaraNeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

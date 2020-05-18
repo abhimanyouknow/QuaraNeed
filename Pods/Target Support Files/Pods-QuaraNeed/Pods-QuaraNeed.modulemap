@@ -1,0 +1,6 @@
+framework module Pods_QuaraNeed {
+  umbrella header "Pods-QuaraNeed-umbrella.h"
+
+  export *
+  module * { export * }
+}
